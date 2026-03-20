@@ -19,6 +19,9 @@ git clone https://github.com/tramsach/lookbusy-docker.git
 Truy cập vào thư mục và kích hoạt
 
 cd lookbusy-docker
+
+chạy lệnh này: docker build . -t lookbusy
+
 docker compose up -d --build
 
 Chờ vài phút để hệ thống kích hoạt.
@@ -26,7 +29,6 @@ Chờ vài phút để hệ thống kích hoạt.
 Kiểm tra lại lookbusy đã hoạt động ổn định chưa bằng cách kiểm tra log
 
 docker compose logs
-
 
 Thông báo hiện ra như bên dưới: lookbusy sẽ duy trì tải cpu luôn trong khoảng 15-20%
 
