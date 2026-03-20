@@ -9,7 +9,11 @@ Yêu cầu VPS của bạn đã được cài đặt sẵn Docker và Git.
 Clone repo sau về máy
 
 
-https://github.com/10h30/lookbusy-docker.git
+git clone https://github.com/10h30/lookbusy-docker.git
+
+hoặc 
+
+git clone https://github.com/tramsach/lookbusy-docker.git
 
 
 Truy cập vào thư mục và kích hoạt
