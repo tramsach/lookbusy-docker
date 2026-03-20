@@ -22,6 +22,8 @@ cd lookbusy-docker
 
 chạy lệnh này: docker build . -t lookbusy
 
+tiếp đó: docker compose up -d
+
 docker compose up -d --build
 
 Chờ vài phút để hệ thống kích hoạt.
